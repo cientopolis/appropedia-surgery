@@ -9,6 +9,174 @@
     <owl:Ontology rdf:about="http://www.appropedia.org/ontologies/2020/8/skills">
         <owl:versionIRI rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/0-0-1"/>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/actingRole -->
+
+    <owl:DatatypeProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/actingRole">
+        <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/alternativeName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/alternativeName">
+        <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/author -->
+
+    <owl:DatatypeProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/author">
+        <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Media"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/difficulty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/difficulty">
+        <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/ends -->
+
+    <owl:DatatypeProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/ends">
+        <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/MediaAnnotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/hasTag -->
+
+    <owl:DatatypeProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/hasTag">
+        <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/MediaAnnotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/language -->
+
+    <owl:DatatypeProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/language">
+        <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Media"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#language"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/learning -->
+
+    <owl:DatatypeProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/learning">
+        <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Media"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="en">The possible values are:
+- theory
+- practice</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/numberOfPersonInvolved -->
+
+    <owl:DatatypeProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/numberOfPersonInvolved">
+        <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/recordingDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/recordingDate">
+        <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Media"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/recordingPlace -->
+
+    <owl:DatatypeProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/recordingPlace">
+        <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Media"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/settings -->
+
+    <owl:DatatypeProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/settings">
+        <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Media"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/starts -->
+
+    <owl:DatatypeProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/starts">
+        <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/MediaAnnotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/Media -->
+
+    <owl:Class rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/Media"/>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/MediaAnnotation -->
+
+    <owl:Class rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/MediaAnnotation"/>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/MedicalSkill -->
+
+    <owl:Class rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/MedicalSkill">
+        <rdfs:subClassOf rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/Skill -->
+
+    <owl:Class rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
 </rdf:RDF>
 
 
