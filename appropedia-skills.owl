@@ -15,6 +15,62 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/hasMaterial -->
+
+    <owl:ObjectProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/hasMaterial">
+        <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
+        <rdfs:range rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Material"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/hasMedia -->
+
+    <owl:ObjectProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/hasMedia">
+        <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
+        <rdfs:range rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Media"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/hasTool -->
+
+    <owl:ObjectProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/hasTool">
+        <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
+        <rdfs:range rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Tool"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/parentSkill -->
+
+    <owl:ObjectProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/parentSkill">
+        <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
+        <rdfs:range rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/subSkill -->
+
+    <owl:ObjectProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/subSkill">
+        <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
+        <rdfs:range rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Data properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -154,6 +210,12 @@
     
 
 
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/Material -->
+
+    <owl:Class rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/Material"/>
+    
+
+
     <!-- http://www.appropedia.org/ontologies/2020/8/skills/Media -->
 
     <owl:Class rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/Media"/>
@@ -177,6 +239,12 @@
     <!-- http://www.appropedia.org/ontologies/2020/8/skills/Skill -->
 
     <owl:Class rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
+    
+
+
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/Tool -->
+
+    <owl:Class rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/Tool"/>
 </rdf:RDF>
 
 
