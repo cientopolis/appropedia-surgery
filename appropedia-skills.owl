@@ -319,25 +319,33 @@
 
     <!-- http://www.appropedia.org/ontologies/2020/8/skills/Intervention -->
 
-    <owl:Class rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/Intervention"/>
+    <owl:Class rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/Intervention">
+        <rdfs:comment>A set of medical skills.</rdfs:comment>
+    </owl:Class>
     
 
 
     <!-- http://www.appropedia.org/ontologies/2020/8/skills/Material -->
 
-    <owl:Class rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/Material"/>
+    <owl:Class rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/Material">
+        <rdfs:comment>An element that can be used or manipulated in a skill.</rdfs:comment>
+    </owl:Class>
     
 
 
     <!-- http://www.appropedia.org/ontologies/2020/8/skills/Media -->
 
-    <owl:Class rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/Media"/>
+    <owl:Class rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/Media">
+        <rdfs:comment>A content that combinas audio, video, or images. Generally are videos.</rdfs:comment>
+    </owl:Class>
     
 
 
     <!-- http://www.appropedia.org/ontologies/2020/8/skills/MediaAnnotation -->
 
-    <owl:Class rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/MediaAnnotation"/>
+    <owl:Class rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/MediaAnnotation">
+        <rdfs:comment>A comment or note of a specific section in a media. It includes a textual descripcion, and a temporal mark.</rdfs:comment>
+    </owl:Class>
     
 
 
@@ -361,7 +369,7 @@
     <!-- http://www.appropedia.org/ontologies/2020/8/skills/Tool -->
 
     <owl:Class rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/Tool">
-        <rdfs:comment xml:lang="en">An object used to extend the ability of an individual to modify features of the surrounding environment.</rdfs:comment>
+        <rdfs:comment xml:lang="en">An object used to extend the ability of an individual to modify features of the surrounding environment. In several context, it could also be refered to devices, machines or equipments.</rdfs:comment>
     </owl:Class>
     
 
