@@ -8,6 +8,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.appropedia.org/ontologies/2020/8/skills">
         <owl:versionIRI rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/0-0-1"/>
+        <owl:versionInfo>0.1.0</owl:versionInfo>
     </owl:Ontology>
     
 
