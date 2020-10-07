@@ -29,15 +29,17 @@
     <owl:ObjectProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/hasAnnotation">
         <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Media"/>
         <rdfs:range rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/MediaAnnotation"/>
+        <rdfs:comment xml:lang="en">A Media has a MediaAnnotation (indeed many annotations).</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.appropedia.org/ontologies/2020/8/skills/hasLearningObject -->
+    <!-- http://www.appropedia.org/ontologies/2020/8/skills/hasLearningElement -->
 
-    <owl:ObjectProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/hasLearningObject">
+    <owl:ObjectProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/hasLearningElement">
         <rdfs:domain rdf:resource="https://w3id.org/ccso/ccso#Course"/>
         <rdfs:range rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
+        <rdfs:comment xml:lang="en">A Syllabus has a Skill as learning element.</rdfs:comment>
     </owl:ObjectProperty>
     
 
@@ -47,6 +49,7 @@
     <owl:ObjectProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/hasMaterial">
         <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
         <rdfs:range rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Material"/>
+        <rdfs:comment xml:lang="en">A Skill has several Materials needed to be performed.</rdfs:comment>
     </owl:ObjectProperty>
     
 
@@ -56,6 +59,7 @@
     <owl:ObjectProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/hasMedia">
         <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
         <rdfs:range rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Media"/>
+        <rdfs:comment xml:lang="en">A Skill has a Media element that is the core of the skill.</rdfs:comment>
     </owl:ObjectProperty>
     
 
@@ -66,6 +70,7 @@
         <owl:inverseOf rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/isPartOfIntervention"/>
         <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Intervention"/>
         <rdfs:range rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/MedicalSkill"/>
+        <rdfs:comment xml:lang="en">An Intervention has a MedicalSkill (generally many of them).</rdfs:comment>
     </owl:ObjectProperty>
     
 
@@ -81,7 +86,9 @@
 
     <!-- http://www.appropedia.org/ontologies/2020/8/skills/isPartOfIntervention -->
 
-    <owl:ObjectProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/isPartOfIntervention"/>
+    <owl:ObjectProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/isPartOfIntervention">
+        <rdfs:comment xml:lang="en">A MedicalSkill is part of an Intervention (or many).</rdfs:comment>
+    </owl:ObjectProperty>
     
 
 
@@ -90,6 +97,7 @@
     <owl:ObjectProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/parentSkill">
         <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
         <rdfs:range rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
+        <rdfs:comment xml:lang="en">A Skill has parent skills. This means that the skill is more specific than their parents.</rdfs:comment>
     </owl:ObjectProperty>
     
 
@@ -99,6 +107,7 @@
     <owl:ObjectProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/subSkill">
         <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
         <rdfs:range rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
+        <rdfs:comment xml:lang="en">A Skill has one or many more specific skills.</rdfs:comment>
     </owl:ObjectProperty>
     
 
@@ -147,6 +156,7 @@
     <owl:DatatypeProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/alternativeName">
         <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Skill"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment>A skill could have different valid names.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -156,6 +166,7 @@
     <owl:DatatypeProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/author">
         <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Media"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment>The name of the person who create that media.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -165,6 +176,7 @@
     <owl:DatatypeProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/bodyPart">
         <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/MedicalSkill"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment>The part of the body where the skill is focused on.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -174,6 +186,7 @@
     <owl:DatatypeProperty rdf:about="http://www.appropedia.org/ontologies/2020/8/skills/duration">
         <rdfs:domain rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/Media"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>An amount of time in which the skill could be learned. This amount of time is an estimation in a general perspective for the students.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
