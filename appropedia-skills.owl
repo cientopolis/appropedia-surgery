@@ -12,7 +12,7 @@
         <dc:creator xml:lang="en">Diego Torres</dc:creator>
         <dc:creator xml:lang="en">Emilio Velis</dc:creator>
         <dc:creator xml:lang="en">Julieta Arancio</dc:creator>
-        <dc:title xml:lang="en">The Appropedia Surgery Skills Ontolog</dc:title>
+        <dc:title xml:lang="en">The Appropedia Surgery Skills Ontology</dc:title>
         <rdfs:label xml:lang="en">Appropedia Surgery Skills Ontology</rdfs:label>
         <owl:versionInfo>0.1.0</owl:versionInfo>
     </owl:Ontology>
