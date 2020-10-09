@@ -6,13 +6,15 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://www.appropedia.org/ontologies/2020/8/skills">
         <owl:versionIRI rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/0-0-1"/>
         <dc:creator xml:lang="en">Diego Torres</dc:creator>
         <dc:creator xml:lang="en">Emilio Velis</dc:creator>
         <dc:creator xml:lang="en">Julieta Arancio</dc:creator>
         <dc:title xml:lang="en">The Appropedia Surgery Skills Ontology</dc:title>
+        <terms:licence xml:lang="en">https://creativecommons.org/licenses/by-sa/4.0/</terms:licence>
         <rdfs:label xml:lang="en">Appropedia Surgery Skills Ontology</rdfs:label>
         <owl:versionInfo>0.1.0</owl:versionInfo>
     </owl:Ontology>
@@ -39,6 +41,12 @@
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/licence -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/licence"/>
     
 
 
