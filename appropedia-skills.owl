@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.appropedia.org/ontologies/2020/8/skills#"
      xml:base="http://www.appropedia.org/ontologies/2020/8/skills"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -8,8 +9,36 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.appropedia.org/ontologies/2020/8/skills">
         <owl:versionIRI rdf:resource="http://www.appropedia.org/ontologies/2020/8/skills/0-0-1"/>
+        <dc:creator xml:lang="en">Diego Torres</dc:creator>
+        <dc:creator xml:lang="en">Emilio Velis</dc:creator>
+        <dc:creator xml:lang="en">Julieta Arancio</dc:creator>
+        <dc:title xml:lang="en">The Appropedia Surgery Skills Ontolog</dc:title>
+        <rdfs:label xml:lang="en">Appropedia Surgery Skills Ontology</rdfs:label>
         <owl:versionInfo>0.1.0</owl:versionInfo>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
     
 
 
