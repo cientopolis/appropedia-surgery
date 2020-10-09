@@ -15,6 +15,7 @@
         <dc:creator xml:lang="en">Julieta Arancio</dc:creator>
         <dc:title xml:lang="en">The Appropedia Surgery Skills Ontology</dc:title>
         <terms:licence xml:lang="en">https://creativecommons.org/licenses/by-sa/4.0/</terms:licence>
+        <rdfs:comment xml:lang="en">The goal of the ontology is to represent the set of entities and its relations involved in the process of creating and delivering audiovisual medical training online, to be mainly used by undergrad students, professors and professionals.</rdfs:comment>
         <rdfs:label xml:lang="en">Appropedia Surgery Skills Ontology</rdfs:label>
         <owl:versionInfo>0.1.0</owl:versionInfo>
     </owl:Ontology>
@@ -35,6 +36,12 @@
     <!-- http://purl.org/dc/elements/1.1/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
     
 
 
